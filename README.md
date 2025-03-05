@@ -16,7 +16,7 @@ In this project
 
 
 * News description are then analyzed using the using NLTK python library w.r.t the news article topic and based on the news sentiment a positive or negative score is assigned.
-  ![](https://github.com/ansel9618/ML_ECS_pipeline/blob/main/images/3.0_.png)
+  
 
 * Analyzed  news aritcle are pushed to a rds postgres AWS instance along with timestamp.
   ![](https://github.com/user-attachments/assets/b1f5863a-b7c0-4d5d-910e-294d76c69e98)
