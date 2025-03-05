@@ -2,7 +2,7 @@
 A ML containerisation project which makes use of ECS to deploy a streamlit app which can query data from postgres rds in aws which is populated using a automated labmbda function by making use of a NewsAPI
 
 ![Architecture](https://github.com/user-attachments/assets/343cd5cf-76c3-413e-8ee9-a7850f593855)
-()
+
 
 In this project
 
@@ -12,7 +12,7 @@ In this project
 * News articles are extracted with the help of a lambda function which is triggered every 1 hr using Event bridge.
 
 * The raw data extrated are pushed to a S3 bucket and stored in json format
-  ![][8](https://github.com/user-attachments/assets/c6756701-5da8-4da5-b0fd-ad3213f6b868)
+  (https://github.com/user-attachments/assets/c6756701-5da8-4da5-b0fd-ad3213f6b868)
 
 
 * News description are then analyzed using the using NLTK python library w.r.t the news article topic and based on the news sentiment a positive or negative score is assigned.
