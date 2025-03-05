@@ -19,17 +19,17 @@ In this project
   
 
 * Analyzed  news aritcle are pushed to a rds postgres AWS instance along with timestamp.
-  ![](https://github.com/user-attachments/assets/b1f5863a-b7c0-4d5d-910e-294d76c69e98)
+  (https://github.com/user-attachments/assets/b1f5863a-b7c0-4d5d-910e-294d76c69e98)
 
 
   
 * Now a Dashboard is created using Streamlit to visualize the sentiment of the news in local system which is then converted to a docker image and pushed to ECR Registry in AWS.
-  ![]![11](https://github.com/user-attachments/assets/7eda41c2-fcf8-4c85-b379-dfcc0504d36b)
+  (https://github.com/user-attachments/assets/7eda41c2-fcf8-4c85-b379-dfcc0504d36b)
 
 
 
 * The uploaded image is run using a AWS Fargate cluster by create a task definition and using the publicIP and assigned port
   we can access the Streamlit Dashboard.
-  !()![6](https://github.com/user-attachments/assets/c024da2f-4202-4ff9-b476-86fd01253b74)
+ (https://github.com/user-attachments/assets/c024da2f-4202-4ff9-b476-86fd01253b74)
 
  
